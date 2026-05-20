@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="520" viewBox="0 0 1280 520" role="img" aria-labelledby="title desc">
+  <title id="title">CAM release hero</title>
+  <desc id="desc">A dark dashboard style illustration showing AI coding agents flowing through CAM into remote approvals.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#08111f"/>
+      <stop offset="0.55" stop-color="#0e1726"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" x2="1">
+      <stop offset="0" stop-color="#54a3ff"/>
+      <stop offset="1" stop-color="#7c5cff"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0" x2="1">
+      <stop offset="0" stop-color="#21d07a"/>
+      <stop offset="1" stop-color="#8cf6c3"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="22" flood-color="#000814" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="520" rx="34" fill="url(#bg)"/>
+  <path d="M0 435 C180 390 250 520 430 470 C620 416 660 300 830 340 C1010 380 1070 250 1280 302 L1280 520 L0 520 Z" fill="#0b2a3a" opacity="0.45"/>
+
+  <g transform="translate(70 64)">
+    <text x="0" y="38" fill="#f8fafc" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="42" font-weight="800">Stop watching terminals.</text>
+    <text x="0" y="88" fill="#dbeafe" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="42" font-weight="800">Let CAM call you back.</text>
+    <text x="0" y="134" fill="#9fb3c8" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="20">Remote approvals, agent status, dashboard control,</text>
+    <text x="0" y="162" fill="#9fb3c8" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="20">and release packages in one install path.</text>
+
+    <g transform="translate(0 220)">
+      <rect x="0" y="0" width="220" height="74" rx="18" fill="#101c2e" stroke="#2d415d"/>
+      <circle cx="36" cy="37" r="12" fill="#54a3ff"/>
+      <text x="64" y="32" fill="#e5edf7" font-family="Inter, ui-sans-serif, system-ui" font-size="17" font-weight="700">AI agent pauses</text>
+      <text x="64" y="55" fill="#8fa3b8" font-family="Inter, ui-sans-serif, system-ui" font-size="14">permission, choice, error</text>
+
+      <rect x="260" y="0" width="220" height="74" rx="18" fill="#101c2e" stroke="#2d415d"/>
+      <circle cx="296" cy="37" r="12" fill="#f7b955"/>
+      <text x="324" y="32" fill="#e5edf7" font-family="Inter, ui-sans-serif, system-ui" font-size="17" font-weight="700">CAM detects it</text>
+      <text x="324" y="55" fill="#8fa3b8" font-family="Inter, ui-sans-serif, system-ui" font-size="14">tmux, hooks, AI</text>
+
+      <rect x="520" y="0" width="220" height="74" rx="18" fill="#101c2e" stroke="#2d415d"/>
+      <circle cx="556" cy="37" r="12" fill="#21d07a"/>
+      <text x="584" y="32" fill="#e5edf7" font-family="Inter, ui-sans-serif, system-ui" font-size="17" font-weight="700">Reply remotely</text>
+      <text x="584" y="55" fill="#8fa3b8" font-family="Inter, ui-sans-serif, system-ui" font-size="14">dashboard, CLI, chat</text>
+
+      <path d="M228 37 L252 37" stroke="#54a3ff" stroke-width="4" stroke-linecap="round"/>
+      <path d="M488 37 L512 37" stroke="#54a3ff" stroke-width="4" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <g transform="translate(850 86)" filter="url(#soft)">
+    <rect x="0" y="0" width="352" height="330" rx="26" fill="#0d1624" stroke="#2d415d"/>
+    <rect x="24" y="24" width="304" height="54" rx="16" fill="#142238" stroke="#315071"/>
+    <text x="48" y="58" fill="#f8fafc" font-family="Inter, ui-sans-serif, system-ui" font-size="18" font-weight="800">CAM Dashboard</text>
+    <circle cx="316" cy="51" r="10" fill="#21d07a"/>
+
+    <g transform="translate(24 105)">
+      <rect x="0" y="0" width="304" height="78" rx="18" fill="#231925" stroke="#9b4a4a"/>
+      <text x="22" y="32" fill="#ffd9d9" font-family="Inter, ui-sans-serif, system-ui" font-size="15" font-weight="800">Decision required</text>
+      <text x="22" y="58" fill="#f8fafc" font-family="Inter, ui-sans-serif, system-ui" font-size="19" font-weight="800">Approve command?</text>
+    </g>
+
+    <g transform="translate(24 205)">
+      <rect x="0" y="0" width="144" height="58" rx="16" fill="#13351f" stroke="#2ea44f"/>
+      <text x="48" y="37" fill="#9df0b4" font-family="Inter, ui-sans-serif, system-ui" font-size="16" font-weight="800">Approve</text>
+      <rect x="160" y="0" width="144" height="58" rx="16" fill="#361a21" stroke="#d24d57"/>
+      <text x="210" y="37" fill="#ffb4bd" font-family="Inter, ui-sans-serif, system-ui" font-size="16" font-weight="800">Reject</text>
+    </g>
+  </g>
+</svg>

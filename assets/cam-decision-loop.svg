@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-labelledby="title desc">
+  <title id="title">CAM decision loop</title>
+  <desc id="desc">Four step workflow: agent needs input, CAM detects, user responds remotely, agent continues.</desc>
+  <defs>
+    <linearGradient id="panel" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#0f1b2d"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L8,3 z" fill="#60a5fa"/>
+    </marker>
+  </defs>
+
+  <rect width="1280" height="420" rx="28" fill="#080f1c"/>
+  <text x="64" y="58" fill="#f8fafc" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="30" font-weight="800">The CAM decision loop</text>
+  <text x="64" y="92" fill="#9fb3c8" font-family="Inter, ui-sans-serif, system-ui" font-size="17">A local monitor turns terminal pauses into remote, structured decisions.</text>
+
+  <g transform="translate(64 145)">
+    <rect x="0" y="0" width="240" height="150" rx="22" fill="url(#panel)" stroke="#2d415d"/>
+    <rect x="24" y="24" width="54" height="54" rx="16" fill="#172b46" stroke="#3b82f6"/>
+    <text x="43" y="59" fill="#93c5fd" font-family="Inter, ui-sans-serif, system-ui" font-size="22" font-weight="900">1</text>
+    <text x="24" y="106" fill="#f8fafc" font-family="Inter, ui-sans-serif, system-ui" font-size="18" font-weight="800">Agent needs input</text>
+    <text x="24" y="130" fill="#9fb3c8" font-family="Inter, ui-sans-serif, system-ui" font-size="14">A terminal agent stops for a decision.</text>
+
+    <rect x="314" y="0" width="240" height="150" rx="22" fill="url(#panel)" stroke="#2d415d"/>
+    <rect x="338" y="24" width="54" height="54" rx="16" fill="#2c2415" stroke="#f7b955"/>
+    <text x="357" y="59" fill="#facc6b" font-family="Inter, ui-sans-serif, system-ui" font-size="22" font-weight="900">2</text>
+    <text x="338" y="106" fill="#f8fafc" font-family="Inter, ui-sans-serif, system-ui" font-size="18" font-weight="800">CAM extracts context</text>
+    <text x="338" y="130" fill="#9fb3c8" font-family="Inter, ui-sans-serif, system-ui" font-size="14">Hooks, polling, risk, and dedup.</text>
+
+    <rect x="628" y="0" width="240" height="150" rx="22" fill="url(#panel)" stroke="#2d415d"/>
+    <rect x="652" y="24" width="54" height="54" rx="16" fill="#162d22" stroke="#21d07a"/>
+    <text x="671" y="59" fill="#86efac" font-family="Inter, ui-sans-serif, system-ui" font-size="22" font-weight="900">3</text>
+    <text x="652" y="106" fill="#f8fafc" font-family="Inter, ui-sans-serif, system-ui" font-size="18" font-weight="800">You answer remotely</text>
+    <text x="652" y="130" fill="#9fb3c8" font-family="Inter, ui-sans-serif, system-ui" font-size="14">Approve, reject, or send details.</text>
+
+    <rect x="942" y="0" width="240" height="150" rx="22" fill="url(#panel)" stroke="#2d415d"/>
+    <rect x="966" y="24" width="54" height="54" rx="16" fill="#201c35" stroke="#a78bfa"/>
+    <text x="985" y="59" fill="#c4b5fd" font-family="Inter, ui-sans-serif, system-ui" font-size="22" font-weight="900">4</text>
+    <text x="966" y="106" fill="#f8fafc" font-family="Inter, ui-sans-serif, system-ui" font-size="18" font-weight="800">Agent continues</text>
+    <text x="966" y="130" fill="#9fb3c8" font-family="Inter, ui-sans-serif, system-ui" font-size="14">The reply is routed back safely.</text>
+
+    <path d="M252 75 H300" stroke="#60a5fa" stroke-width="4" marker-end="url(#arrow)"/>
+    <path d="M566 75 H614" stroke="#60a5fa" stroke-width="4" marker-end="url(#arrow)"/>
+    <path d="M880 75 H928" stroke="#60a5fa" stroke-width="4" marker-end="url(#arrow)"/>
+  </g>
+
+  <g transform="translate(64 337)">
+    <rect x="0" y="0" width="1152" height="42" rx="14" fill="#0f1b2d" stroke="#2d415d"/>
+    <text x="24" y="27" fill="#dbeafe" font-family="Inter, ui-sans-serif, system-ui" font-size="15" font-weight="700">Result:</text>
+    <text x="82" y="27" fill="#9fb3c8" font-family="Inter, ui-sans-serif, system-ui" font-size="15">fewer blocked agents, less terminal babysitting, and faster feedback from human decisions.</text>
+  </g>
+</svg>
