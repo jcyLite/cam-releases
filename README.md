@@ -111,6 +111,25 @@ http://192.168.1.20:3456
 
 Use the dashboard token shown by the CAM bridge when logging in.
 
+### Mobile Experience
+
+The mobile dashboard is for real remote operation: start agents, inspect
+terminal state, open code context, manage skills, and confirm finished work from
+the same phone-sized interface.
+
+<table>
+  <tr>
+    <td width="33%" align="center"><img src="assets/mobile-admin-home.jpg" alt="CAM mobile admin home" width="100%"><br><sub>Admin home</sub></td>
+    <td width="33%" align="center"><img src="assets/mobile-agent-start.jpg" alt="CAM mobile agent monitor and start form" width="100%"><br><sub>Agent monitor and start form</sub></td>
+    <td width="33%" align="center"><img src="assets/mobile-terminal-control.jpg" alt="CAM mobile terminal controls" width="100%"><br><sub>Terminal control</sub></td>
+  </tr>
+  <tr>
+    <td width="33%" align="center"><img src="assets/mobile-code-preview.jpg" alt="CAM mobile code file preview" width="100%"><br><sub>Code file preview</sub></td>
+    <td width="33%" align="center"><img src="assets/mobile-file-tree.jpg" alt="CAM mobile code workspace file tree" width="100%"><br><sub>Workspace file tree</sub></td>
+    <td width="33%" align="center"><img src="assets/mobile-skills-acceptance.jpg" alt="CAM mobile skills management with acceptance reminder" width="100%"><br><sub>Skills and acceptance reminder</sub></td>
+  </tr>
+</table>
+
 ## Release Checks
 
 Inspect the latest public release:

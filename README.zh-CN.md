@@ -106,6 +106,24 @@ http://192.168.1.20:3456
 
 登录时使用 CAM Bridge 显示的 Dashboard token。
 
+### 移动端体验
+
+移动端 Dashboard 面向真实远程操作：在手机上启动 Agent、查看终端状态、打开代码上下文、
+管理技能，并处理任务完成后的验收提醒。
+
+<table>
+  <tr>
+    <td width="33%" align="center"><img src="assets/mobile-admin-home.jpg" alt="CAM 移动端管理首页" width="100%"><br><sub>管理首页</sub></td>
+    <td width="33%" align="center"><img src="assets/mobile-agent-start.jpg" alt="CAM 移动端 Agent 监控和启动表单" width="100%"><br><sub>Agent 监控与启动表单</sub></td>
+    <td width="33%" align="center"><img src="assets/mobile-terminal-control.jpg" alt="CAM 移动端终端控制" width="100%"><br><sub>终端控制</sub></td>
+  </tr>
+  <tr>
+    <td width="33%" align="center"><img src="assets/mobile-code-preview.jpg" alt="CAM 移动端代码文件预览" width="100%"><br><sub>代码文件预览</sub></td>
+    <td width="33%" align="center"><img src="assets/mobile-file-tree.jpg" alt="CAM 移动端代码空间目录树" width="100%"><br><sub>代码空间目录树</sub></td>
+    <td width="33%" align="center"><img src="assets/mobile-skills-acceptance.jpg" alt="CAM 移动端技能管理和验收提醒" width="100%"><br><sub>技能管理与验收提醒</sub></td>
+  </tr>
+</table>
+
 ## Release 检查
 
 打开最新公开 Release：
