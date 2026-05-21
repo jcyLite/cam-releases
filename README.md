@@ -65,6 +65,20 @@ CAM is built around a practical loop:
 Agent needs input -> CAM detects it -> Dashboard shows the decision -> You reply -> Agent continues
 ```
 
+## System Screenshots
+
+The public package includes the same web dashboard runtime used by CAM locally:
+agent status cards, project filters, pending decisions, terminal detail, and the
+right-side message stream.
+
+<p align="center">
+  <img src="assets/cam-dashboard-agents.png" alt="CAM dashboard showing agent status cards and project filters" width="100%">
+</p>
+
+<p align="center">
+  <img src="assets/cam-dashboard-terminal.png" alt="CAM terminal detail page with message stream and agent controls" width="100%">
+</p>
+
 ## What The Release Includes
 
 Each complete release provides:
