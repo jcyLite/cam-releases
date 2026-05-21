@@ -1,5 +1,7 @@
 # CAM Releases
 
+[English](README.md) | [中文](README.zh-CN.md)
+
 <p align="center">
   <img src="assets/cam-release-hero.svg" alt="CAM keeps AI coding agents moving from terminal work to remote approvals" width="100%">
 </p>
